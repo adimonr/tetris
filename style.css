@@ -1,0 +1,64 @@
+body {
+  font-family: Arial;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(-45deg, #169bd8, #0ac7a7)
+
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+
+.grid {
+  width: 200px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: yellow;
+}
+
+.grid div {
+  width: 20px;
+  height: 20px;
+  align-self: center;
+}
+
+#score {
+  padding: 5px;
+  color: white;
+}
+
+#start-button {
+  width: 210px;
+/*   border: solid 5px white; */
+  cursor: pointer;
+  background: white;
+  border: none;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+.tetromino {
+  background-color: blue;
+}
+
+
+.mini-grid {
+  margin-left: 50px;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: yellow
+}
+
+.mini-grid div {
+  height: 20px;
+  width: 20px;
+}
